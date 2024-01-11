@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: white;
+    background-color: rgb(31, 31, 31);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(218, 171, 86);
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: rgb(24, 24, 24);
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: rgb(170, 3, 170);
+}
+
+.navbar-brand:hover {
+    color: rgb(218, 171, 86);
+}
+
+.nav-link {
+    color: rgb(85, 194, 230);
+}
+
+.nav-link:hover {
+    color: rgb(253, 253, 97);
+}
+
+/* Index section */
+#h1-index {
+    color: rgb(77, 133, 87);
+    font-weight: bold;
+    text-align: start;
+}
+
+h2 {
+    color: rgb(218, 171, 86);
+}
+
+.img-fluid{
+    width: 300px;
+    height: auto;
+    margin: 1% 0%;
+}
+
+.language {
+    width: 40px;
+    height: auto;
+}
+
+section {
+    padding: 10%;
+}
+
+/* Projects section */
+.card {
+    transition: transform 0.3s ease-in-out;
+    margin: 30px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.354);
+}
+
+/* Training section */
+
+#section-training {
+    background-color: rgb(27, 27, 27);
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttonContainer {
+    text-align: center;
+    padding: 5%;
+}
+.buttonContainer a{
+    text-decoration: none;
+    color: white;
+}
+.buttonDownload {
+    display: inline-block;
+    padding: 8px 10px;
+    text-align: center;
+    background-color: rgb(85, 194, 230);
+    border: 2px solid rgb(85, 194, 230);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.buttonDownload:hover {
+    background-color: rgb(6, 99, 206);
+}
+
+.buttonDownload:active {
+    background-color: rgb(6, 99, 206);
+    transform: scale(0.95);
+}
+
+.div-section {
+    background-color: #292929;
+    padding: 1%;
+    border-radius: 8px;
+    margin: 2%;
+    max-height: 100%;
+}
+
+.div-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.div-section a:hover{
+    text-decoration: underline;
+}
+
+/* Contact section */
+form {
+    padding: 7%;
+    margin: 5% auto;
+    background: url(https://art.pixilart.com/40b33079899fe98.gif);
+    border-radius: 20px;
+    color: rgb(170, 3, 170);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    padding: 20px;
+    color: rgb(85, 194, 230);
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(227, 161, 39);
+}
+
+footer a:hover {
+    color: yellow;
+}
+
+footer span {
+    color: white
+}
+
+/* Scroll style */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
